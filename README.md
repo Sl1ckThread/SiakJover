@@ -39,7 +39,7 @@ pip install selenium
    
 ![how to find matkul code](./ignore/matkulcode.png)
 
-   On the config.txt, you will see a matkul code `716626-4`. To clarify, `716626` is the value you found on the picture above and `-4` is the sks
+   On the config.txt, you will be asked for matkulcode. To clarify, based on the picture above `749849` is the value you found on the picture above and `-2` is the sks
 
 ### 4. Run the Program
 

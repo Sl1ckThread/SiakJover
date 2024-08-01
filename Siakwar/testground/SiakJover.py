@@ -10,7 +10,7 @@ from selenium.common.exceptions import TimeoutException
 import re
 
 auth_page = "https://academic.ui.ac.id/main/Authentication/"
-course_plan_page = "C:\\Users\\mrnau\\Documents\\python\\Siakwar\\testground\\Penambahan IRS - Dennis Al Baihaqi Walangadi (1906400141); Kurikulum 09.00.12.01-2016 - SIAK NG.html"
+course_plan_page = "C:\\Users\\name\\Documents\\python\\Siakwar\\testground\\Penambahan IRS - Dennis Al Baihaqi Walangadi (1906400141); Kurikulum 09.00.12.01-2016 - SIAK NG.html"
 
 def setup_driver():
     options = Options()

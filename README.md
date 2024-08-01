@@ -31,12 +31,11 @@ pip install selenium
 
 ### 3. Configure the `config.txt` File
 
-   Open the `config.txt` file and update it with your username, password, and subject codes. You can find it by going to the directory path stated on the terminal
+   Open the `config.txt` file and update it with your username, password, and subject codes. You can find it by going to the directory  stated on the terminal
+![how to navigate to config](./ignore/configedit.png)
 
-
-
-
-
+   To find the matkul code you are looking forward can be found by hovering the subject you want
+![how to find matkul code](./ignore/matkulcode.png)
 
 ### 4. Run the Program
 

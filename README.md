@@ -50,7 +50,7 @@ pip install selenium
      python siakjover.py
 ```
 `If you are NOT on windows`, please download the correct chromedriver based on your operating system (linux/mac) on https://googlechromelabs.github.io/chrome-for-testing/
-<br> Replace the current chromedriver in the folder with the one you installed
+<br> Replace the current chromedriver in the folder with the one you installed (also on testground)
 ### 5. Follow the Prompts
 
    - The program will automatically open a browser window and try to log in using the credentials from `config.txt`.

@@ -145,17 +145,17 @@ def select_radio_buttons(driver, matkul_code):
 
     if not_found:
         print(f"Warning: The following codes were not found: {', '.join(set(not_found))}")
-
-    print(f"Checked {cnt} items.")
-
-    # Auto-submit after selecting all radio buttons
-    try:
-        button = driver.find_element(By.XPATH, "//input[@value='Simpan IRS']")
-        print("Submitting form...")
-        button.click()
-        print("Form submitted!")
-    except Exception as e:
-        print(f"Error finding or clicking the submit button: {e}")
+        print("Skipping form submission due to missing codes.")
+    else:
+        print(f"Checked {cnt} items.")
+        # Auto-submit after selecting all radio buttons
+        try:
+            button = driver.find_element(By.XPATH, "//input[@value='Simpan IRS']")
+            print("Submitting form...")
+            button.click()
+            print("Form submitted!")
+        except Exception as e:
+            print(f"Error finding or clicking the submit button: {e}")
 
 
 def process_page(driver, username, password, matkul_code):

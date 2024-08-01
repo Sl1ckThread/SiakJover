@@ -55,6 +55,10 @@ pip install tkinter
 - **Non-Windows Users**: If you're not on Windows, download the correct version of ChromeDriver for your operating system (Linux/macOS). Place the ChromeDriver executable in the SiakJover folder and, if needed, the testground folder for testing purposes.
 - **Program Errors**: If an error occurs, it will be printed in the console. Check these messages for guidance.
 
+## Credits
+
+I took inspiration from the legendary Co-author SiakTzu, Hocky, Dennis and Galang. I have modified their codes to my liking.  
+
 ## Contact
 
 For further assistance, text me via discord sl1ckthread

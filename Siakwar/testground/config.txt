@@ -1,6 +1,5 @@
 username: (your username)
 password: (your password)
 matkul_code:
-(find your matkul code, remove this text bracket after your done)
 608378-4
 716626-4

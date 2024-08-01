@@ -11,6 +11,7 @@
 ```
 git clone https://github.com/Sl1ckThread/SiakJover.git
 ```
+![how to clone in terminal](./ignore/clonning.png)
 
    - **Open Terminal** : Open command prompt or terminal depending on your operating system
    - **Navigate to the Folder**: Open your command prompt (Windows) or terminal (macOS/Linux) and change the directory to your SiakJover folder using:

@@ -9,13 +9,13 @@ PLEASE READ!!!!
 ### 1. Download Required Files
 
    - **Get Python**: This code runs on Python, so you'll need to have it installed. If you don’t have it, download it from https://www.python.org/downloads/. An IDE is a bonus but not required.
-   - **Download SiakJover**: You can clone the repository (use terminal) or download the ZIP file.
+   - **Download SiakJover**: You can clone the repository (You will need to download git for it https://git-scm.com/downloads) or download the ZIP file (dm me via discord if enconter problem, sl1ckthread) 
 ```
 git clone https://github.com/Sl1ckThread/SiakJover.git
 ```
 ![how to clone in terminal](./ignore/clonning.png)
 
-You will need to download git for it. https://git-scm.com/downloads. IF lazy downlaod manually
+
 
 
 

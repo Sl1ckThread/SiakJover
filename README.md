@@ -61,7 +61,7 @@ pip install selenium
 
 ## Whatsupp with testground?
 
-I have created a specific folder for you to test the code. Please make sure to edit the config.txt file as needed. Then, navigate to the testground directory in your terminal by running cd testground, and execute the script with python siakjover.py.
+I have created a specific folder for you to test the code. Please make sure to edit the `config.txt` file INSIDE the testground folder as needed. Then, navigate to the testground directory in your terminal by running `cd testground`, and execute the script with `python siakjover.py`.
 
 To test the changes for the matkul code, run the Python file first and hover over the desired matkul code you want to test.
 

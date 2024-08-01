@@ -17,10 +17,7 @@ git clone https://github.com/Sl1ckThread/SiakJover.git
    - **Navigate to the Folder**: Open your command prompt (Windows) or terminal (macOS/Linux) and change the directory to your SiakJover folder using:
 
 ```
-cd SiakJover
-```
-```
-cd SiakWar
+cd siakjover/siakwar
 ```
 
 
@@ -37,7 +34,7 @@ pip install tkinter
 
 ### 3. Configure the `config.txt` File
 
-   Open the `config.txt` file and update it with your username, password, and subject codes
+   Open the `config.txt` file and update it with your username, password, and subject codes. You can find it by going to the directory path stated on the terminal
 
 
 

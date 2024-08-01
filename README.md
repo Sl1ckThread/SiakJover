@@ -32,9 +32,11 @@ pip install selenium
 ### 3. Configure the `config.txt` File
 
    Open the `config.txt` file and update it with your username, password, and subject codes. You can find it by going to the directory  stated on the terminal
+   
 ![how to navigate to config](./ignore/configedit.png)
 
    To find the matkul code you are looking forward can be found by hovering the subject you want
+   
 ![how to find matkul code](./ignore/matkulcode.png)
 
 ### 4. Run the Program
@@ -49,12 +51,23 @@ pip install selenium
    - It will then navigate to the course selection page and start selecting subjects based on the codes you provided.
    - If there are issues with logging in or finding subjects, the program will show error messages.
 
+## Whatsupp with testground?
+
+I have created a specific folder for you to test the code. Please make sure to edit the config.txt file as needed. Then, navigate to the testground directory in your terminal by running cd testground, and execute the script with python siakjover.py.
+
+To test the changes for the matkul code, run the Python file first and hover over the desired matkul code you want to test.
+
+## Warnings!!
+
+Do not `Go back one page` or you will break the program
+
 ## Troubleshooting
 
 - **Login Issues**: Verify that your username and password in `config.txt` are correct. Ensure your internet connection is stable.
 - **Browser Issues**: Make sure Chrome and ChromeDriver are properly installed and up-to-date.
 - **Non-Windows Users**: If you're not on Windows, download the correct version of ChromeDriver for your operating system (Linux/macOS). Place the ChromeDriver executable in the SiakJover folder and, if needed, the testground folder for testing purposes.
 - **Program Errors**: If an error occurs, it will be printed in the console. Check these messages for guidance.
+- **Terminal Errors** : If for somewhat reason your terminal went stuck and unable to load and want to restart the program, press `Ctrl+C` on the terminal to keyboardinterrupt
 
 ## Credits
 

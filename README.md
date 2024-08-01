@@ -29,6 +29,7 @@ pip install selenium
 ```
 pip install tkinter
 ```
+   Add `--user` behind it if you encounter error installing the library
 
 ### 3. Configure the `config.txt` File
 

@@ -56,7 +56,7 @@ pip install selenium
    - The program will automatically open a browser window and try to log in using the credentials from `config.txt`.
    - It will then navigate to the course selection page and start selecting subjects based on the codes you provided.
    - If there are issues with logging in or finding subjects, the program will show error messages.
-   - After the codes have been selected, it will auto submit. `Currently disabled, you can enable it if you feel comfortable`
+   - After the codes have been selected, it will auto submit. `If codes isnt found, it will not auto submit`
    
 
 ## Whatsupp with testground?

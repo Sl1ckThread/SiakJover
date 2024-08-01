@@ -1,6 +1,6 @@
 # SiakJover
 
-**Sick of losing the battle? Still fighting manually with `Ctrl+F` and endless scrolling?** 😫 <br> Fear not! <br> SiakJover is here to streamline your war with minimal effort. Just make sure you have a decent internet connection! 😄
+**Sick of losing the battle in siak war? Still fighting manually with `Ctrl+F` and endless scrolling?** 😫 <br> Fear not! <br> SiakJover is here to streamline your war with minimal effort. Just make sure you have a decent internet connection! 😄
 
 ## Setup Instructions
 

@@ -2,6 +2,8 @@
 
 **Sick of losing the battle in siak war? Still fighting manually with `Ctrl+F` and endless scrolling?** 😫 <br> Fear not! <br> SiakJover is here to streamline your war with minimal effort. Just make sure you have a decent internet connection! 😄
 
+PLEASE READ!!!!
+
 ## Setup Instructions
 
 ### 1. Download Required Files
@@ -54,6 +56,8 @@ pip install selenium
    - The program will automatically open a browser window and try to log in using the credentials from `config.txt`.
    - It will then navigate to the course selection page and start selecting subjects based on the codes you provided.
    - If there are issues with logging in or finding subjects, the program will show error messages.
+   - After the codes have been selected, it will auto submit. `Currently disabled, you can enable it if you feel comfortable`
+   
 
 ## Whatsupp with testground?
 

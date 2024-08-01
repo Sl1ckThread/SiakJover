@@ -10,32 +10,38 @@
    - **Download SiakJover**: You can clone the repository or download the ZIP file.
    - **Navigate to the Folder**: Open your command prompt (Windows) or terminal (macOS/Linux) and change the directory to your SiakJover folder using:
 
-<tab><tab>cd path_to_your_siakjover_folder
+```
+cd path_to_your_siakjover_folder
+```
+
 
 ### 2. Install Required Python Libraries
 
    You’ll need a couple of Python libraries. Run the following commands in your command prompt or terminal:
-
-   pip install selenium
-   pip install tkinter
+```
+pip install selenium
+```
+```
+pip install tkinter
+```
 
 ### 3. Configure the `config.txt` File
 
    Open the `config.txt` file and update it with your username, password, and subject codes in the following format:
-
+```
    username: your_username
    password: your_password
    matkul_code:
    code1
    code2
-   
+```   
 
 ### 4. Run the Program
 
    - Execute the program using the command:
-
+```
      python siakjover.py
-
+```
 ### 5. Follow the Prompts
 
    - The program will automatically open a browser window and try to log in using the credentials from `config.txt`.

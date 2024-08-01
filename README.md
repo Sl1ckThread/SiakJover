@@ -8,6 +8,11 @@
 
    - **Get Python**: This code runs on Python, so you'll need to have it installed. If you don’t have it, download it from https://www.python.org/downloads/. An IDE is a bonus but not required.
    - **Download SiakJover**: You can clone the repository or download the ZIP file.
+```
+git clone https://github.com/Sl1ckThread/SiakJover.git
+```
+
+   - **Open Terminal** : Open command prompt or terminal depending on your operating system
    - **Navigate to the Folder**: Open your command prompt (Windows) or terminal (macOS/Linux) and change the directory to your SiakJover folder using:
 
 ```

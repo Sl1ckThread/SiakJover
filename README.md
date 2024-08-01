@@ -10,7 +10,7 @@
    - **Download SiakJover**: You can clone the repository or download the ZIP file.
    - **Navigate to the Folder**: Open your command prompt (Windows) or terminal (macOS/Linux) and change the directory to your SiakJover folder using:
 
-     cd path_to_your_siakjover_folder
+<tab><tab>cd path_to_your_siakjover_folder
 
 ### 2. Install Required Python Libraries
 

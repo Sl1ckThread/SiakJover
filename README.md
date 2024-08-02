@@ -9,7 +9,7 @@ PLEASE READ!!!!
 ### Lazy to read allat? This video should help you
 
 #### - How to setup SiakJover?
-Side note: I forgot to mention that if you have a different operating system (not windows), please replace the `chromedriver` inside the folder (both siakwar and inside testground) <br> https://googlechromelabs.github.io/chrome-for-testing/
+Side note: I forgot to mention that if you have a different operating system (not windows), please replace the `chromedriver` inside the folder (both siakwar and inside testground) with the correct one <br> https://googlechromelabs.github.io/chrome-for-testing/
 
 [![setup](./ignore/setup.png)](https://www.youtube.com/watch?v=UmlMUOUMTCo)
 

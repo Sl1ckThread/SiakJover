@@ -177,7 +177,7 @@ def process_page(driver, username, password, matkul_code):
 if __name__ == "__main__":
     print("SiakJover - May we win the war")
     print("Starting...")
-    config = load_config('config.txt')
+    config = load_config('configTesting.txt')
     
     driver = setup_driver()
 

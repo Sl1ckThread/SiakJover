@@ -6,6 +6,17 @@ PLEASE READ!!!!
 
 ## Setup Instructions
 
+###Lazy to read allat? This video should help you
+
+**How to setup SiakJover?**
+Side note: I forgot to mention that if you have a different operating system (not windows), please replace the `chromedriver` inside the folder (both siakwar and inside testground) <br> https://googlechromelabs.github.io/chrome-for-testing/
+
+![setup](./ignore/setup.png)](https://www.youtube.com/watch?v=UmlMUOUMTCo)
+
+**How to run TestGround?**
+
+![testground](./ignore/testground.png)](https://www.youtube.com/watch?v=tjLuujhlNpY)
+
 ### 1. Download Required Files
 
    - **Get Python**: This code runs on Python, so you'll need to have it installed. If you don’t have it, download it from https://www.python.org/downloads/. An IDE is a bonus but not required.

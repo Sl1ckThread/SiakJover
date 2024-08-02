@@ -7,8 +7,8 @@ PLEASE READ!!!!
 ## Video Tutorial
 
 #### - How to setup SiakJover?
-``Side note: I forgot to mention that if you have a different operating system (not windows), please replace the `chromedriver` inside the folder (both siakwar and inside testground) with the correct one <br> https://googlechromelabs.github.io/chrome-for-testing/.
-      + if you're installing python, please checklist pip in the installation.`` 
+> Side note: I forgot to mention that if you have a different operating system (not windows), please replace the `chromedriver` inside the folder (both siakwar and inside testground) with the correct one <br> https://googlechromelabs.github.io/chrome-for-testing/.
+> if you're installing python, please checklist pip in the installation. 
 
 [![setup](./ignore/setup.png)](https://www.youtube.com/watch?v=UmlMUOUMTCo)
 

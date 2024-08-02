@@ -1,10 +1,10 @@
 # SiakJover
 
-**Sick of losing the battle in siak war? Still fighting manually with `Ctrl+F` and endless scrolling?** 😫 <br> Fear not! <br> SiakJover is here to streamline your war with minimal effort. Just make sure you have a decent internet connection! 😄
+**Sick of losing the battle in siak war? Still fighting manually with `Ctrl+F` and endless scrolling?** 😫 <br> Fear not! <br> SiakJover is here to streamline your war with minimal effort. Just make sure you have a decent internet connection! 😄 
 
 PLEASE READ!!!!
 
-## Setup Instructions
+## Video Tutorial
 
 #### - How to setup SiakJover?
 Side note: I forgot to mention that if you have a different operating system (not windows), please replace the `chromedriver` inside the folder (both siakwar and inside testground) with the correct one <br> https://googlechromelabs.github.io/chrome-for-testing/
@@ -15,6 +15,9 @@ Side note: I forgot to mention that if you have a different operating system (no
 
 [![testground](./ignore/testground.png)](https://www.youtube.com/watch?v=tjLuujhlNpY)
 
+## Setup Instructions
+
+
 ### 1. Download Required Files
 
    - **Get Python**: This code runs on Python, so you'll need to have it installed. If you don’t have it, download it from https://www.python.org/downloads/. An IDE is a bonus but not required.
@@ -24,17 +27,12 @@ git clone https://github.com/Sl1ckThread/SiakJover.git
 ```
 ![how to clone in terminal](./ignore/clonning.png)
 
-
-
-
-
    - **Open Terminal** : Open command prompt or terminal depending on your operating system
    - **Navigate to the Folder**: Open your command prompt (Windows) or terminal (macOS/Linux) and change the directory to your SiakJover folder using:
 
 ```
 cd siakjover/siakwar
 ```
-
 
 ### 2. Install Required Python Libraries
 

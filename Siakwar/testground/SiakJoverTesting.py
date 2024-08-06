@@ -92,16 +92,16 @@ def select_radio_buttons(driver, matkul_code):
     matkul_len = len(matkul_code)
     cnt = 0
     not_found = []
-    
+
     print('Matkul picked:')
     for code in matkul_code:
         print(code)
     print(matkul_len)
 
     for code in matkul_code:
-        code_without_dash = code.split('-')[0]
+        code_prefix = code.split('-')[0]  # Extract the part before the dash
         found = False
-        
+
         # Try to find the radio button using the exact value
         try:
             element = driver.find_element(By.XPATH, f'//input[@type="radio"][@value="{code}"]')
@@ -114,11 +114,11 @@ def select_radio_buttons(driver, matkul_code):
         except:
             pass  # Ignore errors and proceed to the next method
 
-        # If not found by value, try using the title
+        # If not found by value, try using the title (prefix before dash)
         if not found:
             try:
-                element = driver.find_element(By.XPATH, f'//input[@type="radio"][@title="{code_without_dash}"]')
-                print(f"Found using title! {element.get_attribute('title')}")
+                element = driver.find_element(By.XPATH, f'//input[@type="radio"][contains(@value, "{code_prefix}")]')
+                print(f"Found using prefix in value! {element.get_attribute('value')}")
                 cnt += 1
                 if not element.is_selected():
                     print("Clicking!")
@@ -127,11 +127,24 @@ def select_radio_buttons(driver, matkul_code):
             except:
                 pass  # Ignore errors and proceed to the next method
 
-        # If still not found, try using part of the URL
+        # If not found by value or prefix, try using the title attribute (prefix before dash)
         if not found:
             try:
-                element = driver.find_element(By.XPATH, f'//input[@type="radio"][@href[contains(., "cc={code_without_dash}")]]')
-                print(f"Found using URL! {element.get_attribute('href')}")
+                element = driver.find_element(By.XPATH, f'//input[@type="radio"]//ancestor::tr//label[contains(text(), "{code_prefix}")]')
+                print(f"Found using prefix in title! {element.text}")
+                cnt += 1
+                if not element.is_selected():
+                    print("Clicking!")
+                    element.click()
+                found = True
+            except:
+                pass  # Ignore errors and proceed to the next method
+
+        # If still not found, try using part of the URL (prefix before dash)
+        if not found:
+            try:
+                element = driver.find_element(By.XPATH, f'//a[contains(@href, "cc={code_prefix}")]//ancestor::input[@type="radio"]')
+                print(f"Found using prefix in URL! {element.get_attribute('href')}")
                 cnt += 1
                 if not element.is_selected():
                     print("Clicking!")
@@ -143,19 +156,20 @@ def select_radio_buttons(driver, matkul_code):
         if not found:
             not_found.append(code)
 
+
     if not_found:
         print(f"Warning: The following codes were not found: {', '.join(set(not_found))}")
         print("Skipping form submission due to missing codes.")
-    else:
-        print(f"Checked {cnt} items.")
-        # Auto-submit after selecting all radio buttons
-        try:
-            button = driver.find_element(By.XPATH, "//input[@value='Simpan IRS']")
-            print("Submitting form...")
-            button.click()
-            print("Form submitted!")
-        except Exception as e:
-            print(f"Error finding or clicking the submit button: {e}")
+
+    print(f"Checked {cnt} items.")
+    # Always attempt to auto-submit after trying to select all radio buttons
+    try:
+        button = driver.find_element(By.XPATH, "//input[@value='Simpan IRS']")
+        print("Submitting form...")
+        button.click()
+        print("Form submitted!")
+    except Exception as e:
+        print(f"Error finding or clicking the submit button: {e}")
 
 
 

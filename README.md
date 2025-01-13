@@ -1,5 +1,15 @@
 # SiakJover
 
+!!! WARNINING !!!
+
+The current has upgraded, avoiding repetitions of refresh. Plan of action is to probably use SiakTzu code /w implementation of Tampermonkey
+I have no motivation to fix tonight nor tmrw. anyways hope u win
+
+
+
+
+
+
 **Sick of losing the battle in siak war? Still fighting manually with `Ctrl+F` and endless scrolling?** 😫 <br> Fear not! <br> SiakJover is here to streamline your war with minimal effort. Just make sure you have a decent internet connection! 😄 
 
 PLEASE READ!!!!

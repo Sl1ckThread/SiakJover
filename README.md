@@ -2,7 +2,8 @@
 
 !!! WARNINING !!!
 
-The current has upgraded, avoiding repetitions of refresh. Plan of action is to probably use SiakTzu code /w implementation of Tampermonkey
+The current has SIAK has upgraded, avoiding repetitions of refresh. Plan of action is to probably use SiakTzu code /w implementation of Tampermonkey
+## DO NOT SPAM REFRESH!!! WAIT FOR 5-10 seconds for each refresh
 I have no motivation to fix tonight nor tmrw. anyways hope u win
 
 
